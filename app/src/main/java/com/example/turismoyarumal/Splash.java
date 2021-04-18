@@ -10,7 +10,10 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 public class Splash extends AppCompatActivity {
-
+    /**
+     * Clase que me ayuda con la actividad que se ejecuta al iniciar la app
+     * XML: activity_splash.html
+     */
     MediaPlayer sonido;
 
     @Override

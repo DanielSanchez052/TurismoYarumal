@@ -11,8 +11,10 @@ import android.widget.TextView;
 import java.util.ArrayList;
 
 public class ListadoLugares extends AppCompatActivity {
-    ImageView imagenLugares;
-    TextView tituloLugares, descipcionLugares;
+    /**
+     * Clase que me ayuda con el RecyclerView que me muestra los lugares individuales de la app
+     * XML: activity_listado_lugares.xml
+     */
     RecyclerView listadoLugares;
 
     ArrayList<ElementoTuristico> datosLugares = new ArrayList<>();

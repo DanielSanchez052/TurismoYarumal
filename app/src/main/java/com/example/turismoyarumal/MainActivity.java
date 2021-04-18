@@ -8,7 +8,11 @@ import android.os.Bundle;
 
 import java.util.ArrayList;
 
-public class MainActivity extends AppCompatActivity {
+public class  MainActivity extends AppCompatActivity {
+    /**
+     *Clase que me ayuda con el RecyclerView que me pinta los grupos de lugares
+     * XML: activity_main.xml
+     */
     ArrayList<ElementoTuristico> listaDatos;
     ArrayList<ElementoTuristico> listaHoteles;
     ArrayList<ElementoTuristico> listaLugares;

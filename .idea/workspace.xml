@@ -13,13 +13,25 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2fbe873-754d-4d81-81a2-650845d3f6f6" name="Default Changelist" comment="" />
+    <list default="true" id="e2fbe873-754d-4d81-81a2-650845d3f6f6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/example/turismoyarumal/BuildConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/example/turismoyarumal/BuildConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/turismoyarumal/AcercaDe.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/turismoyarumal/AcercaDe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/turismoyarumal/AdaptadorLista.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/turismoyarumal/AdaptadorLista.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/turismoyarumal/AdaptadorListadoLugares.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/turismoyarumal/AdaptadorListadoLugares.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/turismoyarumal/DetalleLugar.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/turismoyarumal/DetalleLugar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/turismoyarumal/ElementoTuristico.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/turismoyarumal/ElementoTuristico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/turismoyarumal/ListadoLugares.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/turismoyarumal/ListadoLugares.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/turismoyarumal/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/turismoyarumal/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/turismoyarumal/Splash.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/turismoyarumal/Splash.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="Nexus_6_API_23" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="16babe13" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -68,15 +80,6 @@
     <property name="settings.editor.selected.configurable" value="preferences.language.Kotlin" />
   </component>
   <component name="RecentsManager">
-    <key name="android.template.2117823901">
-      <recent name="com.example.turismoyarumal" />
-    </key>
-    <key name="android.template.-2131000422">
-      <recent name="com.example.turismoyarumal" />
-    </key>
-    <key name="android.template.584719474">
-      <recent name="com.example.turismoyarumal" />
-    </key>
     <key name="android.template.-1180078495">
       <recent name="com.example.turismoyarumal" />
     </key>
@@ -84,6 +87,15 @@
       <recent name="D:\programacion\Android\TurismoYarumal\app\src\main\res\drawable" />
       <recent name="D:\programacion\Android\TurismoYarumal\app\src\main\res\drawable-v24" />
       <recent name="D:\programacion\Android\TurismoYarumal\app\src\main\res\raw" />
+    </key>
+    <key name="android.template.584719474">
+      <recent name="com.example.turismoyarumal" />
+    </key>
+    <key name="android.template.2117823901">
+      <recent name="com.example.turismoyarumal" />
+    </key>
+    <key name="android.template.-2131000422">
+      <recent name="com.example.turismoyarumal" />
     </key>
   </component>
   <component name="RunManager">
@@ -172,10 +184,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="433" y="167" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1618370914385" />
-    <state x="478" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1618612681033">
+    <state x="478" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1618787638660">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="478" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1618612681033" />
+    <state x="478" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1618787638660" />
+    <state x="469" y="216" width="410" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1618787286488">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="469" y="216" width="410" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1618787286488" />
     <state x="227" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1618543096982">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -240,10 +256,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="489" y="135" key="chooseDestDirectoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1618452294075" />
-    <state x="369" y="181" key="com.intellij.ide.util.TipDialog" timestamp="1618761745762">
+    <state x="369" y="181" key="com.intellij.ide.util.TipDialog" timestamp="1618785582374">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="369" y="181" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1618761745762" />
+    <state x="369" y="181" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1618785582374" />
     <state x="259" y="100" width="847" height="602" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1618537058787">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -252,9 +268,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1616082933139" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1618455963280">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1618785880875">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1618455963280" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1618785880875" />
   </component>
 </project>

@@ -7,6 +7,10 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 public class DetalleLugar extends AppCompatActivity {
+    /**
+     * Clase que nos ayudara a mostrar informacion mas detallada de cada uno de los lugares turisticos de la app
+     * XML:activity_detalle_lugar.xml
+     */
     TextView tituloDetalle,descripcionDetalle, contactoDetalle, direccionDetalle;
     ImageView imagenDetalle;
     ElementoTuristico lugarDetalle;

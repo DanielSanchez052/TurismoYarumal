@@ -13,6 +13,10 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.ArrayList;
 
 public class AdaptadorListadoLugares extends RecyclerView.Adapter<AdaptadorListadoLugares.viewHolder> {
+    /**
+     * Adaptador que nos ayuda a administrar la informacion que se mostrara en el RecyclerView de la actividad que mostrará
+     * cada uno de los lugares turisticos de la aplicacion
+     */
     ArrayList<ElementoTuristico> listaDatos;
 
     public AdaptadorListadoLugares(ArrayList<ElementoTuristico> listaDatos) {
