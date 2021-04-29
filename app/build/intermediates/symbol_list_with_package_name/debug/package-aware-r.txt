@@ -1138,11 +1138,15 @@ id image
 id info
 id invisible
 id italic
+id itemMainHoteles
+id itemMainLugares
 id item_touch_helper_previous_elevation
 id ivIconoAcerca
 id ivImagenDetalle
 id ivImagenElemento
+id ivImagenHotel
 id ivImagenLugar
+id ivImagenLugares
 id jumpToEnd
 id jumpToStart
 id layout
@@ -1182,7 +1186,6 @@ id reverseSawtooth
 id right
 id right_icon
 id right_side
-id rvListado
 id rvListadoDetalle
 id sawtooth
 id screen
@@ -1257,7 +1260,9 @@ id tvNombre
 id tvTitleSplash
 id tvTitulo
 id tvTituloDetalleLugar
+id tvTituloHotel
 id tvTituloLugar
+id tvTituloLugares
 id unchecked
 id uniform
 id up
