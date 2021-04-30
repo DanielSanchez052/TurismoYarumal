@@ -1143,7 +1143,6 @@ id itemMainLugares
 id item_touch_helper_previous_elevation
 id ivIconoAcerca
 id ivImagenDetalle
-id ivImagenElemento
 id ivImagenHotel
 id ivImagenLugar
 id ivImagenLugares
@@ -1258,7 +1257,6 @@ id tvDireccionDetalle
 id tvEmail
 id tvNombre
 id tvTitleSplash
-id tvTitulo
 id tvTituloDetalleLugar
 id tvTituloHotel
 id tvTituloLugar
@@ -1317,8 +1315,7 @@ layout activity_listado_lugares
 layout activity_main
 layout activity_splash
 layout custom_dialog
-layout item_list
-layout item_listado_lugares
+layout item_listado_hoteles
 layout notification_action
 layout notification_action_tombstone
 layout notification_template_custom_big

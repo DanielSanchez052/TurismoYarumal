@@ -16,10 +16,6 @@
         "source": "D:\\programacion\\Android\\TurismoYarumal\\app\\src\\main\\res\\drawable\\preventorio_lugar1.jpg"
     },
     {
-        "merged": "D:\\programacion\\Android\\TurismoYarumal\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_listado_lugares.xml.flat",
-        "source": "D:\\programacion\\Android\\TurismoYarumal\\app\\src\\main\\res\\layout\\item_listado_lugares.xml"
-    },
-    {
         "merged": "D:\\programacion\\Android\\TurismoYarumal\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
         "source": "D:\\programacion\\Android\\TurismoYarumal\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
@@ -80,6 +76,10 @@
         "source": "D:\\programacion\\Android\\TurismoYarumal\\app\\src\\main\\res\\drawable-v24\\relax_hotel.jpg"
     },
     {
+        "merged": "D:\\programacion\\Android\\TurismoYarumal\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_listado_hoteles.xml.flat",
+        "source": "D:\\programacion\\Android\\TurismoYarumal\\app\\src\\main\\res\\layout\\item_listado_hoteles.xml"
+    },
+    {
         "merged": "D:\\programacion\\Android\\TurismoYarumal\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
         "source": "D:\\programacion\\Android\\TurismoYarumal\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
@@ -110,10 +110,6 @@
     {
         "merged": "D:\\programacion\\Android\\TurismoYarumal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icono.png.flat",
         "source": "D:\\programacion\\Android\\TurismoYarumal\\app\\src\\main\\res\\drawable\\icono.png"
-    },
-    {
-        "merged": "D:\\programacion\\Android\\TurismoYarumal\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_list.xml.flat",
-        "source": "D:\\programacion\\Android\\TurismoYarumal\\app\\src\\main\\res\\layout\\item_list.xml"
     },
     {
         "merged": "D:\\programacion\\Android\\TurismoYarumal\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",

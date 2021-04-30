@@ -12,14 +12,14 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
 
-public class AdaptadorListadoLugares extends RecyclerView.Adapter<AdaptadorListadoLugares.viewHolder> {
+public class AdaptadorHoteles extends RecyclerView.Adapter<AdaptadorHoteles.viewHolder> {
     /**
      * Adaptador que nos ayuda a administrar la informacion que se mostrara en el RecyclerView de la actividad que mostrará
      * cada uno de los lugares turisticos de la aplicacion
      */
-    ArrayList<ElementoTuristico> listaDatos;
+    ArrayList<LugarTuristico> listaDatos;
 
-    public AdaptadorListadoLugares(ArrayList<ElementoTuristico> listaDatos) {
+    public AdaptadorHoteles(ArrayList<LugarTuristico> listaDatos) {
         this.listaDatos = listaDatos;
     }
 
@@ -27,7 +27,7 @@ public class AdaptadorListadoLugares extends RecyclerView.Adapter<AdaptadorLista
     @Override
     public viewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View vistaListado = LayoutInflater.from(parent.getContext())
-                .inflate(R.layout.item_listado_lugares,null,false);
+                .inflate(R.layout.item_listado_hoteles,null,false);
 
         return new viewHolder(vistaListado);
     }
@@ -55,7 +55,7 @@ public class AdaptadorListadoLugares extends RecyclerView.Adapter<AdaptadorLista
             descripcionDetalle =itemView.findViewById(R.id.tvDescripcionLugar);
         }
 
-        public void actualizarDatosItem(final ElementoTuristico datosItem){
+        public void actualizarDatosItem(final LugarTuristico datosItem){
             tituloDetalle.setText(datosItem.getTituloElemento());
             imagenDetalle.setImageResource(datosItem.getImagenElemento());
             descripcionDetalle.setText(datosItem.getDescripcionElemento());

@@ -13,7 +13,7 @@ public class DetalleLugar extends AppCompatActivity {
      */
     TextView tituloDetalle,descripcionDetalle, contactoDetalle, direccionDetalle;
     ImageView imagenDetalle;
-    ElementoTuristico lugarDetalle;
+    LugarTuristico lugarDetalle;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,7 +26,7 @@ public class DetalleLugar extends AppCompatActivity {
         direccionDetalle = findViewById(R.id.tvDireccionDetalle);
         imagenDetalle = findViewById(R.id.ivImagenDetalle);
 
-        lugarDetalle = (ElementoTuristico) getIntent().getSerializableExtra("detalleLugar");
+        lugarDetalle = (LugarTuristico) getIntent().getSerializableExtra("detalleLugar");
 
         tituloDetalle.setText(lugarDetalle.getTituloElemento());
         descripcionDetalle.setText(lugarDetalle.getDescripcionElemento());

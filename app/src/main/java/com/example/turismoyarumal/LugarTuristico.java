@@ -1,9 +1,8 @@
 package com.example.turismoyarumal;
 
-import java.util.ArrayList;
 import java.io.Serializable;
 
-public class ElementoTuristico implements Serializable {
+public class LugarTuristico implements Serializable {
     /**
      * CLase que representa los lugares turisticos
      */
@@ -12,30 +11,8 @@ public class ElementoTuristico implements Serializable {
     private String descripcionElemento="";
     private String contacto="";
     private String direccion;
-    private ArrayList<ElementoTuristico> lugaresTuristicos;//Este arrayList me ayda a almacenar los lugares turisticos individuales
 
-    public ElementoTuristico(int imagenElemento, String tituloElemento) {
-        /**
-         * Constructor que me ayuda con la informacion de El acerca De
-         */
-        this.imagenElemento = imagenElemento;
-        this.tituloElemento = tituloElemento;
-    }
-
-    public ElementoTuristico(int imagenElemento, String tituloElemento,ArrayList<ElementoTuristico> lugaresTuristicos) {
-        /**
-         * Constructor que me ayuda con la informacion de los grupos de lugares,
-         * @param imagenElemento la imagen que se mostará en el grupo de lugares
-         * @param tituloElemento titulo de el grupo de lugares
-         * @param lugaresTuristicos lista de lugares individuales de este grupo
-          */
-        this.imagenElemento = imagenElemento;
-        this.tituloElemento = tituloElemento;
-        this.lugaresTuristicos = lugaresTuristicos;
-
-    }
-
-    public ElementoTuristico(int imagenElemento, String tituloElemento, String descripcionElemento, String contacto, String direccion) {
+    public LugarTuristico(int imagenElemento, String tituloElemento, String descripcionElemento, String contacto, String direccion) {
         /**
          * Constructor que me ayuda a crear Cada lugar individual de la app
          */
@@ -84,14 +61,6 @@ public class ElementoTuristico implements Serializable {
 
     public void setDireccion(String direccion) {
         this.direccion = direccion;
-    }
-
-    public ArrayList<ElementoTuristico> getLugaresTuristicos() {
-        return lugaresTuristicos;
-    }
-
-    public void setLugaresTuristicos(ArrayList<ElementoTuristico> lugaresTuristicos) {
-        this.lugaresTuristicos = lugaresTuristicos;
     }
 
 }
