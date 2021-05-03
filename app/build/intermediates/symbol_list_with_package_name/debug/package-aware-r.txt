@@ -1186,6 +1186,7 @@ id right
 id right_icon
 id right_side
 id rvListadoDetalle
+id rvListadoLugares
 id sawtooth
 id screen
 id scrollIndicatorDown
@@ -1252,6 +1253,7 @@ id tvCelularContacto
 id tvContactoDetalle
 id tvDescripcionAcerca
 id tvDescripcionDetalle
+id tvDescripcionHotel
 id tvDescripcionLugar
 id tvDireccionDetalle
 id tvEmail
@@ -1311,11 +1313,13 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_acerca_de
 layout activity_detalle_lugar
+layout activity_listado_hoteles
 layout activity_listado_lugares
 layout activity_main
 layout activity_splash
 layout custom_dialog
 layout item_listado_hoteles
+layout item_listado_lugares
 layout notification_action
 layout notification_action_tombstone
 layout notification_template_custom_big

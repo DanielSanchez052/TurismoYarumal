@@ -11,7 +11,7 @@ import java.util.ArrayList;
 public class ListadoHoteles extends AppCompatActivity {
     /**
      * Clase que me ayuda con el RecyclerView que me muestra los lugares individuales de la app
-     * XML: activity_listado_lugares.xml
+     * XML: activity_listado_hoteles.xml
      */
     RecyclerView listadoLugares;
 
@@ -20,7 +20,7 @@ public class ListadoHoteles extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_listado_lugares);
+        setContentView(R.layout.activity_listado_hoteles);
 
         listadoLugares = findViewById(R.id.rvListadoDetalle);
         listadoLugares.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.VERTICAL , false));

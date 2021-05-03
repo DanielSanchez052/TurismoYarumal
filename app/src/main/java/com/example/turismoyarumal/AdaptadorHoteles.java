@@ -50,9 +50,9 @@ public class AdaptadorHoteles extends RecyclerView.Adapter<AdaptadorHoteles.view
 
         public viewHolder(@NonNull View itemView) {
             super(itemView);
-            tituloDetalle = itemView.findViewById(R.id.tvTituloLugar);
-            imagenDetalle = itemView.findViewById(R.id.ivImagenLugar);
-            descripcionDetalle =itemView.findViewById(R.id.tvDescripcionLugar);
+            tituloDetalle = itemView.findViewById(R.id.tvTituloHotel);
+            imagenDetalle = itemView.findViewById(R.id.ivImagenHotel);
+            descripcionDetalle =itemView.findViewById(R.id.tvDescripcionHotel);
         }
 
         public void actualizarDatosItem(final LugarTuristico datosItem){

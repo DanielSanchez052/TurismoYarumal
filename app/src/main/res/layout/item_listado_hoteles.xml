@@ -13,7 +13,7 @@
         android:layout_height="wrap_content">
 
         <TextView
-            android:id="@+id/tvTituloLugar"
+            android:id="@+id/tvTituloHotel"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
 
@@ -30,7 +30,7 @@
             />
 
         <ImageView
-            android:id="@+id/ivImagenLugar"
+            android:id="@+id/ivImagenHotel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
 
@@ -40,10 +40,10 @@
 
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/tvTituloLugar"/>
+            app:layout_constraintTop_toBottomOf="@id/tvTituloHotel"/>
 
         <TextView
-            android:id="@+id/tvDescripcionLugar"
+            android:id="@+id/tvDescripcionHotel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
 
@@ -55,7 +55,7 @@
             android:text="Texto de prueba"
             android:textAlignment="center"
 
-            app:layout_constraintTop_toBottomOf="@+id/ivImagenLugar"
+            app:layout_constraintTop_toBottomOf="@+id/ivImagenHotel"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             />

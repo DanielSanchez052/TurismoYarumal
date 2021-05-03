@@ -12,7 +12,9 @@ import java.util.ArrayList;
 public class  MainActivity extends AppCompatActivity {
     CardView itemMainHoteles;
     CardView itemMainLugares;
+
     ArrayList<LugarTuristico> listaHoteles = new ArrayList<>();
+    ArrayList<LugarTuristico> listaLugares = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,12 +25,22 @@ public class  MainActivity extends AppCompatActivity {
         itemMainLugares = findViewById(R.id.itemMainLugares);
 
         crearHoteles();
+        crearLugares();
 
         itemMainHoteles.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, ListadoHoteles.class);
                 intent.putExtra("listadoHoteles",listaHoteles);
+                startActivity(intent);
+                finish();
+            }
+        });
+        itemMainLugares.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, ListadoLugares.class);
+                intent.putExtra("listadoLugares",listaLugares);
                 startActivity(intent);
                 finish();
             }
@@ -71,5 +83,32 @@ public class  MainActivity extends AppCompatActivity {
                 getString(R.string.relaxDescripcion),
                 "Contacto: 8872903 y 3207269868",
                 "Dirección: Calle 21 # 21-78"));
+    }
+
+    private void crearLugares(){
+        listaLugares.add(new LugarTuristico(
+                R.drawable.mayarino_lugar1,
+                "Mallarino(El puente)",
+                getString(R.string.mayarinoDescripcion),
+                "",
+                "Dirección: Estadero Los Charcos De Mallarino"));
+        listaLugares.add(new LugarTuristico(
+                R.drawable.parque_principal,
+                "Parque Principal",
+                getString(R.string.parqueDescripcion),
+                "",
+                "Dirección: El parque principal"));
+        listaLugares.add(new LugarTuristico(
+                R.drawable.preventorio_lugar1,
+                "Parque Recreativo Ruben Piedrahita Arango",
+                getString(R.string.preventorioDescripcion),
+                "",
+                "Dirección: El preventorio"));
+        listaLugares.add(new LugarTuristico(
+                R.drawable.coliseo_lugar1,
+                "El coliseo del café",
+                getString(R.string.coliseoDescipcion),
+                "",
+                "Dirección: Calle. 12 #23-46"));
     }
 }

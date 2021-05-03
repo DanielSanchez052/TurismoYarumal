@@ -18,9 +18,10 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.example.turismoyarumal.ListadoLugares" />
         <activity android:name="com.example.turismoyarumal.DetalleLugar" />
         <activity android:name="com.example.turismoyarumal.AcercaDe" />
-        <activity android:name="com.example.turismoyarumal.ListadoLugares" />
+        <activity android:name="com.example.turismoyarumal.ListadoHoteles" />
         <activity android:name="com.example.turismoyarumal.MainActivity" />
         <activity android:name="com.example.turismoyarumal.Splash" >
             <intent-filter>
