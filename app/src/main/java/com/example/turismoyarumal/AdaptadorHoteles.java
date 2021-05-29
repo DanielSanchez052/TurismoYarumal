@@ -1,6 +1,7 @@
 package com.example.turismoyarumal;
 
 import android.content.Intent;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -9,6 +10,8 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 
@@ -57,7 +60,8 @@ public class AdaptadorHoteles extends RecyclerView.Adapter<AdaptadorHoteles.view
 
         public void actualizarDatosItem(final LugarTuristico datosItem){
             tituloDetalle.setText(datosItem.getTituloElemento());
-            imagenDetalle.setImageResource(datosItem.getImagenElemento());
+            Picasso.with(itemView.getContext()).load(datosItem.getImagenElemento())
+                    .into(imagenDetalle);
             descripcionDetalle.setText(datosItem.getDescripcionElemento());
 
             itemView.setOnClickListener(new View.OnClickListener() {

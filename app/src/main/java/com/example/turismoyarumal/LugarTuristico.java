@@ -6,13 +6,13 @@ public class LugarTuristico implements Serializable {
     /**
      * CLase que representa los lugares turisticos
      */
-    private int imagenElemento;
+    private String  imagenElemento;
     private String tituloElemento;
     private String descripcionElemento="";
     private String contacto="";
     private String direccion;
 
-    public LugarTuristico(int imagenElemento, String tituloElemento, String descripcionElemento, String contacto, String direccion) {
+    public LugarTuristico(String imagenElemento, String tituloElemento, String descripcionElemento, String contacto, String direccion) {
         /**
          * Constructor que me ayuda a crear Cada lugar individual de la app
          */
@@ -23,11 +23,11 @@ public class LugarTuristico implements Serializable {
         this.direccion = direccion;
     }
 
-    public int getImagenElemento() {
+    public String getImagenElemento() {
         return imagenElemento;
     }
 
-    public void setImagenElemento(int imagenElemento) {
+    public void setImagenElemento(String imagenElemento) {
         this.imagenElemento = imagenElemento;
     }
 

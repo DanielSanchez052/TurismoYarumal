@@ -23,4 +23,13 @@
 
     <string name="relaxDescripcion">Estamos ubicados en la terminal de trasporte, contamos con confortables habitaciones, gimnasio,baño turco y cancha <sintética></sintética></string>
 
+    <string name="opcion1">Ingles</string>
+    <string name="opcion2">Español</string>
+    <string name="opcion3">Contribuir</string>
+    <string name="opcion4">Acerca de..</string>
+
+    <string-array name="LugaresInteres">
+        <item>Hotel</item>
+        <item>Interes</item>
+    </string-array>
 </resources>

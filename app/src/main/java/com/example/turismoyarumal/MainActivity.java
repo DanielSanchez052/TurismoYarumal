@@ -1,13 +1,20 @@
 package com.example.turismoyarumal;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
+import androidx.recyclerview.widget.LinearLayoutManager;
 
 import android.content.Intent;
+import android.content.res.Configuration;
 import android.os.Bundle;
+
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 
 import java.util.ArrayList;
+import java.util.Locale;
 
 public class  MainActivity extends AppCompatActivity {
     CardView itemMainHoteles;
@@ -24,8 +31,8 @@ public class  MainActivity extends AppCompatActivity {
         itemMainHoteles = findViewById(R.id.itemMainHoteles);
         itemMainLugares = findViewById(R.id.itemMainLugares);
 
-        crearHoteles();
-        crearLugares();
+        //crearHoteles();
+        //crearLugares();
 
         itemMainHoteles.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -47,68 +54,44 @@ public class  MainActivity extends AppCompatActivity {
         });
     }
 
-    private void crearHoteles(){
-        listaHoteles.add(new LugarTuristico(
-                R.drawable.panorama_hotel,
-                "Panorama Hotel",
-                getString(R.string.panoramaDescripcion),
-                "Contacto: 314 6577826",
-                "Dirección: Carrera 20 # 19-37"
-        ));
+    public boolean onCreateOptionsMenu (Menu menu){
+        getMenuInflater().inflate(R.menu.main_menu,menu);
 
-        listaHoteles.add(new LugarTuristico(
-                R.drawable.armonia_hotel,
-                "Armonia Hotel",
-                getString(R.string.armoniaDescripcion),
-                "Contacto: 310 8040253",
-                "Dirección: Carrera 25 # 14-104"));
-
-        listaHoteles.add(new LugarTuristico(
-                R.drawable.amajari_hotel,
-                "Hotel Amajari",
-                getString(R.string.amajariDescripcion),
-                "Contacto: 8538866 Y 8870866",
-                "Dirección: Carrera 20 # 19-18"));
-
-        listaHoteles.add(new LugarTuristico(
-                R.drawable.gran_hotel,
-                "Gran Hotel",
-                getString(R.string.granDescripcion),
-                "Contacto: 313 6092506",
-                "Dirección: Carrera 20 # 21-25"));
-
-        listaHoteles.add(new LugarTuristico(
-                R.drawable.relax_hotel,
-                "Hotel Relax",
-                getString(R.string.relaxDescripcion),
-                "Contacto: 8872903 y 3207269868",
-                "Dirección: Calle 21 # 21-78"));
+        return true;
     }
 
-    private void crearLugares(){
-        listaLugares.add(new LugarTuristico(
-                R.drawable.mayarino_lugar1,
-                "Mallarino(El puente)",
-                getString(R.string.mayarinoDescripcion),
-                "",
-                "Dirección: Estadero Los Charcos De Mallarino"));
-        listaLugares.add(new LugarTuristico(
-                R.drawable.parque_principal,
-                "Parque Principal",
-                getString(R.string.parqueDescripcion),
-                "",
-                "Dirección: El parque principal"));
-        listaLugares.add(new LugarTuristico(
-                R.drawable.preventorio_lugar1,
-                "Parque Recreativo Ruben Piedrahita Arango",
-                getString(R.string.preventorioDescripcion),
-                "",
-                "Dirección: El preventorio"));
-        listaLugares.add(new LugarTuristico(
-                R.drawable.coliseo_lugar1,
-                "El coliseo del café",
-                getString(R.string.coliseoDescipcion),
-                "",
-                "Dirección: Calle. 12 #23-46"));
+    public boolean onOptionsItemSelected(MenuItem item){
+        int id = item.getItemId();
+
+        switch (id){
+            case(R.id.opcion1):
+                cambiarIdioma("en");
+                Intent intent1 = new Intent(MainActivity.this, MainActivity.class);
+                startActivity(intent1);
+                break;
+            case(R.id.opcion2):
+                cambiarIdioma("es");
+                Intent intent2 = new Intent(MainActivity.this, MainActivity.class);
+                startActivity(intent2);
+                break;
+            case (R.id.opcion3):
+                Intent intent3 = new Intent(MainActivity.this,Contribuir.class);
+                startActivity(intent3);
+                break;
+            case(R.id.opcion4):
+                Intent intent4 = new Intent(MainActivity.this,AcercaDe.class);
+                startActivity(intent4);
+                break;
+        }
+        return super.onOptionsItemSelected(item);
+    }
+
+    public void cambiarIdioma(String lenguaje){
+        Locale idioma = new Locale(lenguaje);
+        Locale.setDefault(idioma);
+
+        Configuration configuracionTelefono = getResources().getConfiguration();
+        configuracionTelefono.locale=idioma;
+        getBaseContext().getResources().updateConfiguration(configuracionTelefono,getBaseContext().getResources().getDisplayMetrics());
     }
 }

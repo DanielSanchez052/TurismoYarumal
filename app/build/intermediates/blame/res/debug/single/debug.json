@@ -1,19 +1,11 @@
 [
     {
-        "merged": "D:\\programacion\\Android\\TurismoYarumal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mayarino_lugar1.jpg.flat",
-        "source": "D:\\programacion\\Android\\TurismoYarumal\\app\\src\\main\\res\\drawable\\mayarino_lugar1.jpg"
-    },
-    {
         "merged": "D:\\programacion\\Android\\TurismoYarumal\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_acerca_de.xml.flat",
         "source": "D:\\programacion\\Android\\TurismoYarumal\\app\\src\\main\\res\\layout\\activity_acerca_de.xml"
     },
     {
         "merged": "D:\\programacion\\Android\\TurismoYarumal\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
         "source": "D:\\programacion\\Android\\TurismoYarumal\\app\\src\\main\\res\\layout\\activity_main.xml"
-    },
-    {
-        "merged": "D:\\programacion\\Android\\TurismoYarumal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_preventorio_lugar1.jpg.flat",
-        "source": "D:\\programacion\\Android\\TurismoYarumal\\app\\src\\main\\res\\drawable\\preventorio_lugar1.jpg"
     },
     {
         "merged": "D:\\programacion\\Android\\TurismoYarumal\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_listado_lugares.xml.flat",
@@ -26,10 +18,6 @@
     {
         "merged": "D:\\programacion\\Android\\TurismoYarumal\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
         "source": "D:\\programacion\\Android\\TurismoYarumal\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
-    },
-    {
-        "merged": "D:\\programacion\\Android\\TurismoYarumal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_panorama_hotel.jpg.flat",
-        "source": "D:\\programacion\\Android\\TurismoYarumal\\app\\src\\main\\res\\drawable\\panorama_hotel.jpg"
     },
     {
         "merged": "D:\\programacion\\Android\\TurismoYarumal\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
@@ -48,8 +36,12 @@
         "source": "D:\\programacion\\Android\\TurismoYarumal\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "D:\\programacion\\Android\\TurismoYarumal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_parque_principal.jpg.flat",
-        "source": "D:\\programacion\\Android\\TurismoYarumal\\app\\src\\main\\res\\drawable\\parque_principal.jpg"
+        "merged": "D:\\programacion\\Android\\TurismoYarumal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_panorama_hotel.jpg.flat",
+        "source": "D:\\programacion\\Android\\TurismoYarumal\\app\\src\\main\\res\\drawable-v24\\panorama_hotel.jpg"
+    },
+    {
+        "merged": "D:\\programacion\\Android\\TurismoYarumal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_parque_principal.jpg.flat",
+        "source": "D:\\programacion\\Android\\TurismoYarumal\\app\\src\\main\\res\\drawable-v24\\parque_principal.jpg"
     },
     {
         "merged": "D:\\programacion\\Android\\TurismoYarumal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_contactenos_md.jpg.flat",
@@ -64,20 +56,8 @@
         "source": "D:\\programacion\\Android\\TurismoYarumal\\app\\src\\main\\res\\layout\\activity_detalle_lugar.xml"
     },
     {
-        "merged": "D:\\programacion\\Android\\TurismoYarumal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_armonia_hotel.jpg.flat",
-        "source": "D:\\programacion\\Android\\TurismoYarumal\\app\\src\\main\\res\\drawable-v24\\armonia_hotel.jpg"
-    },
-    {
         "merged": "D:\\programacion\\Android\\TurismoYarumal\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
         "source": "D:\\programacion\\Android\\TurismoYarumal\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "D:\\programacion\\Android\\TurismoYarumal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_gran_hotel.jpeg.flat",
-        "source": "D:\\programacion\\Android\\TurismoYarumal\\app\\src\\main\\res\\drawable-v24\\gran_hotel.jpeg"
-    },
-    {
-        "merged": "D:\\programacion\\Android\\TurismoYarumal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_relax_hotel.jpg.flat",
-        "source": "D:\\programacion\\Android\\TurismoYarumal\\app\\src\\main\\res\\drawable-v24\\relax_hotel.jpg"
     },
     {
         "merged": "D:\\programacion\\Android\\TurismoYarumal\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_listado_hoteles.xml.flat",
@@ -88,24 +68,28 @@
         "source": "D:\\programacion\\Android\\TurismoYarumal\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "D:\\programacion\\Android\\TurismoYarumal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_amajari_hotel.png.flat",
-        "source": "D:\\programacion\\Android\\TurismoYarumal\\app\\src\\main\\res\\drawable-v24\\amajari_hotel.png"
-    },
-    {
         "merged": "D:\\programacion\\Android\\TurismoYarumal\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
         "source": "D:\\programacion\\Android\\TurismoYarumal\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
-    },
-    {
-        "merged": "D:\\programacion\\Android\\TurismoYarumal\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_background.png.flat",
-        "source": "D:\\programacion\\Android\\TurismoYarumal\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_background.png"
     },
     {
         "merged": "D:\\programacion\\Android\\TurismoYarumal\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
         "source": "D:\\programacion\\Android\\TurismoYarumal\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
     },
     {
+        "merged": "D:\\programacion\\Android\\TurismoYarumal\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_background.png.flat",
+        "source": "D:\\programacion\\Android\\TurismoYarumal\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "D:\\programacion\\Android\\TurismoYarumal\\app\\build\\intermediates\\res\\merged\\debug\\menu_main_menu.xml.flat",
+        "source": "D:\\programacion\\Android\\TurismoYarumal\\app\\src\\main\\res\\menu\\main_menu.xml"
+    },
+    {
         "merged": "D:\\programacion\\Android\\TurismoYarumal\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_listado_lugares.xml.flat",
         "source": "D:\\programacion\\Android\\TurismoYarumal\\app\\src\\main\\res\\layout\\activity_listado_lugares.xml"
+    },
+    {
+        "merged": "D:\\programacion\\Android\\TurismoYarumal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_camera.png.flat",
+        "source": "D:\\programacion\\Android\\TurismoYarumal\\app\\src\\main\\res\\drawable-v24\\camera.png"
     },
     {
         "merged": "D:\\programacion\\Android\\TurismoYarumal\\app\\build\\intermediates\\res\\merged\\debug\\raw_sentarse.mp3.flat",
@@ -156,6 +140,10 @@
         "source": "D:\\programacion\\Android\\TurismoYarumal\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_background.png"
     },
     {
+        "merged": "D:\\programacion\\Android\\TurismoYarumal\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_contribuir.xml.flat",
+        "source": "D:\\programacion\\Android\\TurismoYarumal\\app\\src\\main\\res\\layout\\activity_contribuir.xml"
+    },
+    {
         "merged": "D:\\programacion\\Android\\TurismoYarumal\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "D:\\programacion\\Android\\TurismoYarumal\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
@@ -168,16 +156,12 @@
         "source": "D:\\programacion\\Android\\TurismoYarumal\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "D:\\programacion\\Android\\TurismoYarumal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_coliseo_lugar1.jpg.flat",
-        "source": "D:\\programacion\\Android\\TurismoYarumal\\app\\src\\main\\res\\drawable\\coliseo_lugar1.jpg"
+        "merged": "D:\\programacion\\Android\\TurismoYarumal\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "D:\\programacion\\Android\\TurismoYarumal\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
         "merged": "D:\\programacion\\Android\\TurismoYarumal\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
         "source": "D:\\programacion\\Android\\TurismoYarumal\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "D:\\programacion\\Android\\TurismoYarumal\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "D:\\programacion\\Android\\TurismoYarumal\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
         "merged": "D:\\programacion\\Android\\TurismoYarumal\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",

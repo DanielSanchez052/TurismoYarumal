@@ -21,7 +21,7 @@
       "properties": {
         "packageId": "com.example.turismoyarumal",
         "split": "",
-        "minSdkVersion": "22"
+        "minSdkVersion": "28"
       }
     }
   ]

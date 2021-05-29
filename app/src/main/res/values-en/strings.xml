@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Turismo Yarumal</string>
+    <string name="mayarinoDescripcion">Es un puente ubicado cerca de el estadero mayarino sobre el rio llamado brisas del nechi, Exelente para pasar una tarde en familia</string>
+
+    <string name="parqueDescripcion">Es el parque Principal ubicado cerca de todo el comercio local de el pueblo como restaurantes, centros comerciales pequeños y la basilica la merced</string>
+
+    <string name="preventorioDescripcion">Es un lugar donde hay diversos espacios dispuestos al deporte como canchas de futbol de baloncesto, pista de motocross, de downhill ademas de una piscina mediana</string>
+
+    <string name="coliseoDescipcion">Es un espacio dispuesto al deporte donde se podra encontrar una cancha que puede ser utilizada para el futbol como para el baloncesto, una pista de patinaje, una piscina grande,cancha de tenis y gimnasio</string>
+
+    <string name="panoramaDescripcion">Hotel Abierto las 24 horas, Estamos ubicados en el parque principal con exelentes vistas hacia este, ademas ofrecemos servivio de parqueadero privado para motos</string>
+
+    <string name="armoniaDescripcion">Si buscas un lugar tranquilo donde descansar y que este alejado del bullicio; el hotel Armonía es tu mejor opción.
+                                        Estamos ubicados diagonal a la nueva terminal de transporte del municipio y cerca al hospital.
+                                        Tenemos habitaciones para 1 persona, pareja o familia.Cada habitación cuenta con baño privado, agua caliente, televisión digital e internet</string>
+
+    <string name="amajariDescripcion">Tenemos el mejor servicio a su disposicion, habitaciones con desayuno incluido
+                                        tiene a su servico confortables habitaciones con baño privado, agua caliente, tv a color, WiFi (GRATIS),
+                                        Si deseas compartir una noche especial con tu pareja, tenemos la mejor opcion
+                                    </string>
+
+    <string name="granDescripcion">Tenemos a tu disposición excelentes y cómodas instalaciones, muy buen servicio y precios bajos. Ubicado en el centro de la ciudad a dos cuadras del parque central con parqueaderos económicos cerca del hotel y buenos restaurantes a los alrededores</string>
+
+    <string name="relaxDescripcion">Estamos ubicados en la terminal de trasporte, contamos con confortables habitaciones, gimnasio,baño turco y cancha <sintética></sintética></string>
+
+    <string name="opcion1">English</string>
+    <string name="opcion2">Spanish</string>
+    <string name="opcion3">Contribute</string>
+    <string name="opcion4">About..</string>
+</resources>
