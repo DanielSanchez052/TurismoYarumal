@@ -31,9 +31,6 @@ public class  MainActivity extends AppCompatActivity {
         itemMainHoteles = findViewById(R.id.itemMainHoteles);
         itemMainLugares = findViewById(R.id.itemMainLugares);
 
-        //crearHoteles();
-        //crearLugares();
-
         itemMainHoteles.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -74,13 +71,9 @@ public class  MainActivity extends AppCompatActivity {
                 Intent intent2 = new Intent(MainActivity.this, MainActivity.class);
                 startActivity(intent2);
                 break;
-            case (R.id.opcion3):
-                Intent intent3 = new Intent(MainActivity.this,Contribuir.class);
+            case(R.id.opcion3):
+                Intent intent3 = new Intent(MainActivity.this,AcercaDe.class);
                 startActivity(intent3);
-                break;
-            case(R.id.opcion4):
-                Intent intent4 = new Intent(MainActivity.this,AcercaDe.class);
-                startActivity(intent4);
                 break;
         }
         return super.onOptionsItemSelected(item);

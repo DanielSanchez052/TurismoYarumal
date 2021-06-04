@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.content.res.Configuration;
 import android.os.Bundle;
+import android.view.Display;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ImageView;
@@ -22,7 +23,6 @@ public class DetalleLugar extends AppCompatActivity {
     TextView tituloDetalle,descripcionDetalle, contactoDetalle, direccionDetalle;
     ImageView imagenDetalle;
     LugarTuristico lugarDetalle;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -41,6 +41,8 @@ public class DetalleLugar extends AppCompatActivity {
         contactoDetalle.setText(lugarDetalle.getContacto());
         direccionDetalle.setText(lugarDetalle.getDireccion());
         Picasso.with(this).load(lugarDetalle.getImagenElemento())
+                .resize(1000,950)
+                .centerInside()
                 .into(imagenDetalle);
         //imagenDetalle.setImageResource(lugarDetalle.getImagenElemento());
     }
@@ -65,11 +67,7 @@ public class DetalleLugar extends AppCompatActivity {
                 Intent intent2 = new Intent(DetalleLugar.this, DetalleLugar.class);
                 startActivity(intent2);
                 break;
-            case (R.id.opcion3):
-                Intent intent3 = new Intent(DetalleLugar.this,Contribuir.class);
-                startActivity(intent3);
-                break;
-            case(R.id.opcion4):
+            case(R.id.opcion3):
                 Intent intent4 = new Intent(DetalleLugar.this,AcercaDe.class);
                 startActivity(intent4);
                 break;

@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">Turismo Yarumal</string>
+
     <string name="mayarinoDescripcion">Es un puente ubicado cerca de el estadero mayarino sobre el rio llamado brisas del nechi, Exelente para pasar una tarde en familia</string>
 
     <string name="parqueDescripcion">Es el parque Principal ubicado cerca de todo el comercio local de el pueblo como restaurantes, centros comerciales pequeños y la basilica la merced</string>
@@ -25,11 +26,28 @@
 
     <string name="opcion1">Ingles</string>
     <string name="opcion2">Español</string>
-    <string name="opcion3">Contribuir</string>
-    <string name="opcion4">Acerca de..</string>
+    <string name="opcion3">Acerca de..</string>
 
     <string-array name="LugaresInteres">
         <item>Hotel</item>
         <item>Interes</item>
     </string-array>
+
+    <string name="ver_mas">+Ver Mas</string>
+
+    <string name="lugarHotel">Hotel</string>
+    <string name="lugarInteres">Lugares de interes</string>
+
+    <string name="contribute">Contribuye con un lugar</string>
+    <string name="tipo_lugar">Tipo de lugar</string>
+    <string name="nombre_lugar">Nombre del lugar</string>
+    <string name="descripcion_lugar">Descripcion de el lugar</string>
+    <string name="contacto_lugar">Contacto de el lugar</string>
+    <string name="direccion_lugar">Direccion del lugar</string>
+    <string name="guardar_lugar">Guardar Lugar</string>
+    <string name="about">Esto es una aplicación creada netamente para fines educativos</string>
+
+    <string name="subido">Su lugar será revisado para evaluar si es apto o no </string>
+    <string name="subir_error">Ha ocurrido un error y no se ha podido subir su lugar</string>
+    <string name="obtener_error">Debes llenar los campos nombre,direccion,descripcion y seleccionar una imagen</string>
 </resources>

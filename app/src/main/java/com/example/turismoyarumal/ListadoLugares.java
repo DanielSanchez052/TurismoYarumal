@@ -66,11 +66,7 @@ public class ListadoLugares extends AppCompatActivity {
                 Intent intent2 = new Intent(ListadoLugares.this, ListadoLugares.class);
                 startActivity(intent2);
                 break;
-            case (R.id.opcion3):
-                Intent intent3 = new Intent(ListadoLugares.this,Contribuir.class);
-                startActivity(intent3);
-                break;
-            case(R.id.opcion4):
+            case(R.id.opcion3):
                 Intent intent4 = new Intent(ListadoLugares.this,AcercaDe.class);
                 startActivity(intent4);
                 break;
@@ -90,6 +86,7 @@ public class ListadoLugares extends AppCompatActivity {
     private void getLugares(){
         db.collection("LugaresTuristicos")
                 .whereEqualTo("TipoLugar","Interes")
+                .whereEqualTo("activo",true)
                 .get().addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
             @Override
             public void onComplete(@NonNull Task<QuerySnapshot> task) {
@@ -98,7 +95,7 @@ public class ListadoLugares extends AppCompatActivity {
                         listadoLugares.add(new LugarTuristico(
                                 document.get("imagen").toString(),
                                 document.get("nombre").toString(),
-                                document.get("descripcion").toString(),
+                                getResources().getString(getResources().getIdentifier((String) document.get("descripcion"),"string",getPackageName())),
                                 document.get("contacto").toString(),
                                 document.get("direccion").toString()
                         ));

@@ -1,6 +1,7 @@
 package com.example.turismoyarumal;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -61,6 +62,8 @@ public class AdaptadorHoteles extends RecyclerView.Adapter<AdaptadorHoteles.view
         public void actualizarDatosItem(final LugarTuristico datosItem){
             tituloDetalle.setText(datosItem.getTituloElemento());
             Picasso.with(itemView.getContext()).load(datosItem.getImagenElemento())
+                    .resize(980,900)
+                    .centerCrop()
                     .into(imagenDetalle);
             descripcionDetalle.setText(datosItem.getDescripcionElemento());
 

@@ -44,11 +44,7 @@ public class AcercaDe extends AppCompatActivity {
                 Intent intent2 = new Intent(AcercaDe.this, AcercaDe.class);
                 startActivity(intent2);
                 break;
-            case (R.id.opcion3):
-                Intent intent3 = new Intent(AcercaDe.this,Contribuir.class);
-                startActivity(intent3);
-                break;
-            case(R.id.opcion4):
+            case(R.id.opcion3):
                 Intent intent4 = new Intent(AcercaDe.this,AcercaDe.class);
                 startActivity(intent4);
                 break;

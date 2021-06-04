@@ -62,6 +62,8 @@ public class AdaptadorLugares extends RecyclerView.Adapter<AdaptadorLugares.view
         public void actualizarDatosItem(final LugarTuristico datosItem){
             tituloDetalle.setText(datosItem.getTituloElemento());
             Picasso.with(itemView.getContext()).load(datosItem.getImagenElemento())
+                    .resize(985,900)
+                    .centerCrop()
                     .into(imagenDetalle);
             descripcionDetalle.setText(datosItem.getDescripcionElemento());
 

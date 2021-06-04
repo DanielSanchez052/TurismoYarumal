@@ -8,6 +8,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.content.Intent;
 import android.content.res.Configuration;
 import android.os.Bundle;
+import android.os.LocaleList;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -36,7 +37,6 @@ public class ListadoHoteles extends AppCompatActivity {
         setContentView(R.layout.activity_listado_hoteles);
 
         listadoLugares = findViewById(R.id.rvListadoDetalle);
-
         getLugares();
     }
 
@@ -60,16 +60,22 @@ public class ListadoHoteles extends AppCompatActivity {
                 Intent intent2 = new Intent(ListadoHoteles.this, ListadoHoteles.class);
                 startActivity(intent2);
                 break;
-            case (R.id.opcion3):
-                Intent intent3 = new Intent(ListadoHoteles.this,Contribuir.class);
-                startActivity(intent3);
-                break;
-            case(R.id.opcion4):
+            case(R.id.opcion3):
                 Intent intent4 = new Intent(ListadoHoteles.this,AcercaDe.class);
                 startActivity(intent4);
                 break;
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    private String getidioma(){
+        Configuration configuracionTelefono = getResources().getConfiguration();
+        String tagLenguaje = configuracionTelefono.locale.toString();
+
+        String lenguaje;
+
+        lenguaje = tagLenguaje.contains("es")?"Español" :"Ingles";
+        return lenguaje;
     }
 
     public void cambiarIdioma(String lenguaje){
@@ -82,17 +88,19 @@ public class ListadoHoteles extends AppCompatActivity {
     }
 
     private void getLugares(){
+        final String[] descripcion = new String[1];
         db.collection("LugaresTuristicos")
                 .whereEqualTo("TipoLugar","Hotel")
+                .whereEqualTo("activo",true)
                 .get().addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
             @Override
             public void onComplete(@NonNull Task<QuerySnapshot> task) {
                 if (task.isSuccessful()) {
                     for (QueryDocumentSnapshot document : task.getResult()) {
-                        listadoHoteles.add(new LugarTuristico(
+                    listadoHoteles.add(new LugarTuristico(
                                 document.get("imagen").toString(),
                                 document.get("nombre").toString(),
-                                document.get("descripcion").toString(),
+                                getResources().getString(getResources().getIdentifier((String) document.get("descripcion"),"string",getPackageName())),
                                 document.get("contacto").toString(),
                                 document.get("direccion").toString()
                         ));
@@ -101,7 +109,7 @@ public class ListadoHoteles extends AppCompatActivity {
                     AdaptadorHoteles adaptador = new AdaptadorHoteles(listadoHoteles);
                     listadoLugares.setAdapter(adaptador);
                 } else {
-
+                    //pass
                 }
             }
         });
