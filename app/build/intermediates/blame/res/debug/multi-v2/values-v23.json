@@ -4,7 +4,7 @@
             "outputFile": "D:\\programacion\\Android\\TurismoYarumal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Desarrollo\\.gradle\\caches\\transforms-2\\files-2.1\\3a4bf45ee1cd2799bf6d0559eb3917d7\\appcompat-1.2.0\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\Desarrollo\\.gradle\\caches\\transforms-2\\files-2.1\\ef122f0b8b1c3733bd17028a09365755\\appcompat-1.2.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -15,7 +15,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Desarrollo\\.gradle\\caches\\transforms-2\\files-2.1\\c53a1cf06eec9ec8e2c1fa79d76edf7f\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\Desarrollo\\.gradle\\caches\\transforms-2\\files-2.1\\0de5cf0de236b1cee48ac7b9dc3ef610\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -1,113 +1,90 @@
 package com.example.turismoyarumal;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
+import android.content.res.Configuration;
 import android.os.Bundle;
 
+import android.view.Menu;
+import android.view.MenuItem;
+import android.view.View;
+
 import java.util.ArrayList;
+import java.util.Locale;
 
 public class  MainActivity extends AppCompatActivity {
-    /**
-     *Clase que me ayuda con el RecyclerView que me pinta los grupos de lugares
-     * XML: activity_main.xml
-     */
-    ArrayList<ElementoTuristico> listaDatos;
-    ArrayList<ElementoTuristico> listaHoteles;
-    ArrayList<ElementoTuristico> listaLugares;
-    RecyclerView listado;
+    CardView itemMainHoteles;
+    CardView itemMainLugares;
+
+    ArrayList<LugarTuristico> listaHoteles = new ArrayList<>();
+    ArrayList<LugarTuristico> listaLugares = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        listado = findViewById(R.id.rvListado);
-        listado.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false));
+        itemMainHoteles = findViewById(R.id.itemMainHoteles);
+        itemMainLugares = findViewById(R.id.itemMainLugares);
 
-        listaDatos = new ArrayList<>();
-        listaHoteles = new ArrayList<>();
-        listaLugares = new ArrayList<>();
-
-        crearListado();
-
-        AdaptadorLista adaptador = new AdaptadorLista(listaDatos);
-        listado.setAdapter(adaptador);
+        itemMainHoteles.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, ListadoHoteles.class);
+                intent.putExtra("listadoHoteles",listaHoteles);
+                startActivity(intent);
+                finish();
+            }
+        });
+        itemMainLugares.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, ListadoLugares.class);
+                intent.putExtra("listadoLugares",listaLugares);
+                startActivity(intent);
+                finish();
+            }
+        });
     }
 
-    private void crearListado() {
-        crearHoteles();
-        crearLugares();
+    public boolean onCreateOptionsMenu (Menu menu){
+        getMenuInflater().inflate(R.menu.main_menu,menu);
 
-        listaDatos.add(new ElementoTuristico(R.drawable.parque_principal,"Lugares de interes",listaLugares));
-        listaDatos.add(new ElementoTuristico(R.drawable.panorama_hotel,"Hoteles",listaHoteles));
-
-        listaDatos.add(new ElementoTuristico(R.drawable.contactenos_md,"Contactenos Aquí"));
+        return true;
     }
 
-    private void crearHoteles(){
-         listaHoteles.add(new ElementoTuristico(
-                R.drawable.panorama_hotel,
-                "Panorama Hotel",
-                 getString(R.string.panoramaDescripcion),
-                 "Contacto: 314 6577826",
-                 "Dirección: Carrera 20 # 19-37"
-                ));
+    public boolean onOptionsItemSelected(MenuItem item){
+        int id = item.getItemId();
 
-        listaHoteles.add(new ElementoTuristico(
-                R.drawable.armonia_hotel,
-                "Armonia Hotel",
-                getString(R.string.armoniaDescripcion),
-                "Contacto: 310 8040253",
-                "Dirección: Carrera 25 # 14-104"));
-
-        listaHoteles.add(new ElementoTuristico(
-                R.drawable.amajari_hotel,
-                "Hotel Amajari",
-                getString(R.string.amajariDescripcion),
-                "Contacto: 8538866 Y 8870866",
-                "Dirección: Carrera 20 # 19-18"));
-
-        listaHoteles.add(new ElementoTuristico(
-                R.drawable.gran_hotel,
-                "Gran Hotel",
-                getString(R.string.granDescripcion),
-                "Contacto: 313 6092506",
-                "Dirección: Carrera 20 # 21-25"));
-
-        listaHoteles.add(new ElementoTuristico(
-                R.drawable.relax_hotel,
-                "Hotel Relax",
-                getString(R.string.relaxDescripcion),
-                "Contacto: 8872903 y 3207269868",
-                "Dirección: Calle 21 # 21-78"));
+        switch (id){
+            case(R.id.opcion1):
+                cambiarIdioma("en");
+                Intent intent1 = new Intent(MainActivity.this, MainActivity.class);
+                startActivity(intent1);
+                break;
+            case(R.id.opcion2):
+                cambiarIdioma("es");
+                Intent intent2 = new Intent(MainActivity.this, MainActivity.class);
+                startActivity(intent2);
+                break;
+            case(R.id.opcion3):
+                Intent intent3 = new Intent(MainActivity.this,AcercaDe.class);
+                startActivity(intent3);
+                break;
+        }
+        return super.onOptionsItemSelected(item);
     }
 
-    private void crearLugares(){
-        listaLugares.add(new ElementoTuristico(
-                R.drawable.mayarino_lugar1,
-                "Mallarino(El puente)",
-                getString(R.string.mayarinoDescripcion),
-                "",
-                "Dirección: Estadero Los Charcos De Mallarino"));
-        listaLugares.add(new ElementoTuristico(
-                R.drawable.parque_principal,
-                "Parque Principal",
-                getString(R.string.parqueDescripcion),
-                "",
-                "Dirección: El parque principal"));
-        listaLugares.add(new ElementoTuristico(
-                R.drawable.preventorio_lugar1,
-                "Parque Recreativo Ruben Piedrahita Arango",
-                getString(R.string.preventorioDescripcion),
-                "",
-                "Dirección: El preventorio"));
-        listaLugares.add(new ElementoTuristico(
-                R.drawable.coliseo_lugar1,
-                "El coliseo del café",
-                getString(R.string.coliseoDescipcion),
-                "",
-                "Dirección: Calle. 12 #23-46"));
+    public void cambiarIdioma(String lenguaje){
+        Locale idioma = new Locale(lenguaje);
+        Locale.setDefault(idioma);
+
+        Configuration configuracionTelefono = getResources().getConfiguration();
+        configuracionTelefono.locale=idioma;
+        getBaseContext().getResources().updateConfiguration(configuracionTelefono,getBaseContext().getResources().getDisplayMetrics());
     }
 }

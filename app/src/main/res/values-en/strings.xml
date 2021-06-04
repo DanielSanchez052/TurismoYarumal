@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Turismo Yarumal</string>
+
+    <string name="mayarinoDescripcion">It is a bridge located near the Mayan farm over the river called Brisas del Nechi, excellent to spend an afternoon with the family</string>
+
+    <string name="parqueDescripcion">
+        It is the main park located near all the local commerce of the town such as restaurants, small shopping centers and the basilica La Merced
+    </string>
+
+    <string name="preventorioDescripcion">
+        It is a place where there are various spaces available for sports such as basketball soccer fields, motocross track, downhill as well as a medium pool.
+    </string>
+
+    <string name="coliseoDescipcion">
+        It is a space ready for sports where you can find a court that can be used for football and basketball, a skating rink,
+        a large pool, tennis court and gym
+    </string>
+
+    <string name="panoramaDescripcion">
+        Hotel Open 24 hours, We are located in the main park with excellent views to the east, we also offer private parking service for motorcycles
+    </string>
+
+    <string name="armoniaDescripcion">
+        If you are looking for a quiet place to rest and that is away from the hustle and bustle; the Armonía hotel is your best option.
+        We are located diagonally to the new transport terminal of the municipality and close to the hospital.
+        We have rooms for 1 person, couple or family. Each room has a private bathroom, hot water, digital television and internet.
+    </string>
+
+    <string name="amajariDescripcion">
+        We have the best service at your disposal, rooms with breakfast included
+        It has at your service comfortable rooms with private bathroom, hot water, color TV, WiFi (FREE),
+        If you want to share a special night with your partner, we have the best option
+    </string>
+
+    <string name="granDescripcion">
+        We have at your disposal excellent and comfortable facilities, very good service and low prices.
+        Located in the center of the city two blocks from the central park with cheap parking spaces
+        close to the hotel and good restaurants around
+    </string>
+
+    <string name="relaxDescripcion">
+        We are located in the transport terminal, we have comfortable rooms, gym, Turkish bath and synthetic court
+    </string>
+
+    <string name="opcion1">English</string>
+    <string name="opcion2">Spanish</string>
+    <string name="opcion3">About..</string>
+
+    <string-array name="LugaresInteres">
+        <item>Hotel</item>
+        <item>Interes</item>
+    </string-array>
+
+    <string name="ver_mas">+ View More</string>
+    <string name="lugarHotel">Hotel</string>
+    <string name="lugarInteres">Places of interest</string>
+    <string name="nombre_lugar">Name of place</string>
+    <string name="descripcion_lugar">Description of the place</string>
+    <string name="contacto_lugar">Contact of the place</string>
+    <string name="direccion_lugar">Direction of the place</string>
+    <string name="contribute">Contribute a place</string>
+    <string name="tipo_lugar">Type of place</string>
+    <string name="guardar_lugar">Save place</string>
+    <string name="about">This is an application created purely for educational purposes</string>
+
+    <string name="subido">Your place will be reviewed to evaluate if it is suitable or not</string>
+    <string name="subir_error">An error has occurred and your place could not be uploaded</string>
+    <string name="obtener_error">You must fill in the name, address, description fields and select an image</string>
+</resources>

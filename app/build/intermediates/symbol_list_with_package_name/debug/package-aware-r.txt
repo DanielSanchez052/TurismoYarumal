@@ -24,6 +24,7 @@ anim btn_radio_to_on_mtrl_dot_group_animation
 anim btn_radio_to_on_mtrl_ring_outer_animation
 anim btn_radio_to_on_mtrl_ring_outer_path_animation
 array EditColors
+array LugaresInteres
 attr actionBarDivider
 attr actionBarItemBackground
 attr actionBarPopupTheme
@@ -99,6 +100,7 @@ attr buttonCompat
 attr buttonGravity
 attr buttonIconDimen
 attr buttonPanelSideLayout
+attr buttonSize
 attr buttonStyle
 attr buttonStyleSmall
 attr buttonTint
@@ -113,6 +115,7 @@ attr cardViewStyle
 attr chainUseRtl
 attr checkboxStyle
 attr checkedTextViewStyle
+attr circleCrop
 attr circleRadius
 attr clickAction
 attr closeIcon
@@ -129,6 +132,7 @@ attr colorControlNormal
 attr colorError
 attr colorPrimary
 attr colorPrimaryDark
+attr colorScheme
 attr colorSwitchThumbNormal
 attr commitIcon
 attr constraintSet
@@ -247,6 +251,8 @@ attr icon
 attr iconTint
 attr iconTintMode
 attr iconifiedByDefault
+attr imageAspectRatio
+attr imageAspectRatioAdjust
 attr imageButtonStyle
 attr indeterminateProgressStyle
 attr initialActivityCount
@@ -403,6 +409,7 @@ attr reverseLayout
 attr round
 attr roundPercent
 attr saturation
+attr scopeUris
 attr searchHintIcon
 attr searchIcon
 attr searchViewStyle
@@ -575,6 +582,17 @@ color cardview_shadow_end_color
 color cardview_shadow_start_color
 color chartreuse
 color chocolate
+color common_google_signin_btn_text_dark
+color common_google_signin_btn_text_dark_default
+color common_google_signin_btn_text_dark_disabled
+color common_google_signin_btn_text_dark_focused
+color common_google_signin_btn_text_dark_pressed
+color common_google_signin_btn_text_light
+color common_google_signin_btn_text_light_default
+color common_google_signin_btn_text_light_disabled
+color common_google_signin_btn_text_light_focused
+color common_google_signin_btn_text_light_pressed
+color common_google_signin_btn_tint
 color coral
 color cornflowerblue
 color cornsilk
@@ -960,8 +978,6 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
-drawable amajari_hotel
-drawable armonia_hotel
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -970,14 +986,33 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
-drawable coliseo_lugar1
+drawable camera
+drawable common_full_open_on_phone
+drawable common_google_signin_btn_icon_dark
+drawable common_google_signin_btn_icon_dark_focused
+drawable common_google_signin_btn_icon_dark_normal
+drawable common_google_signin_btn_icon_dark_normal_background
+drawable common_google_signin_btn_icon_disabled
+drawable common_google_signin_btn_icon_light
+drawable common_google_signin_btn_icon_light_focused
+drawable common_google_signin_btn_icon_light_normal
+drawable common_google_signin_btn_icon_light_normal_background
+drawable common_google_signin_btn_text_dark
+drawable common_google_signin_btn_text_dark_focused
+drawable common_google_signin_btn_text_dark_normal
+drawable common_google_signin_btn_text_dark_normal_background
+drawable common_google_signin_btn_text_disabled
+drawable common_google_signin_btn_text_light
+drawable common_google_signin_btn_text_light_focused
+drawable common_google_signin_btn_text_light_normal
+drawable common_google_signin_btn_text_light_normal_background
 drawable contactenos
 drawable contactenos_md
-drawable gran_hotel
+drawable foto
+drawable googleg_disabled_color_18
+drawable googleg_standard_color_18
 drawable ic_launcher_background
 drawable ic_launcher_foreground
-drawable icono
-drawable mayarino_lugar1
 drawable mountains
 drawable notification_action_background
 drawable notification_bg
@@ -993,8 +1028,6 @@ drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable panorama_hotel
 drawable parque_principal
-drawable preventorio_lugar1
-drawable relax_hotel
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 id ALT
@@ -1061,6 +1094,8 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id adjust_height
+id adjust_width
 id alertTitle
 id aligned
 id always
@@ -1068,6 +1103,7 @@ id animateToEnd
 id animateToStart
 id asConfigured
 id async
+id auto
 id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
@@ -1088,19 +1124,23 @@ id checkbox
 id checked
 id chronometer
 id collapseActionView
+id contactoLugar
 id content
 id contentPanel
 id cos
 id custom
 id customPanel
+id dark
 id decelerate
 id decelerateAndComplete
 id decor_content_parent
 id default_activity_button
 id deltaRelative
 id dependency_ordering
+id descripcionLugar
 id dialog_button
 id dimensions
+id direccionLugar
 id direct
 id disableHome
 id disablePostScroll
@@ -1126,27 +1166,34 @@ id graph_wrap
 id group_divider
 id grouping
 id groups
+id guardarLugar
 id home
 id homeAsUp
 id honorRequest
 id icon
 id icon_group
+id icon_only
 id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imagenLugar
 id info
 id invisible
 id italic
+id itemMainHoteles
+id itemMainLugares
 id item_touch_helper_previous_elevation
 id ivIconoAcerca
 id ivImagenDetalle
-id ivImagenElemento
+id ivImagenHotel
 id ivImagenLugar
+id ivImagenLugares
 id jumpToEnd
 id jumpToStart
 id layout
 id left
+id light
 id line1
 id line3
 id linear
@@ -1157,6 +1204,7 @@ id middle
 id motion_base
 id multiply
 id never
+id nombreLugar
 id none
 id normal
 id notification_background
@@ -1164,6 +1212,9 @@ id notification_main_column
 id notification_main_column_container
 id off
 id on
+id opcion1
+id opcion2
+id opcion3
 id packed
 id parent
 id parentPanel
@@ -1182,8 +1233,8 @@ id reverseSawtooth
 id right
 id right_icon
 id right_side
-id rvListado
 id rvListadoDetalle
+id rvListadoLugares
 id sawtooth
 id screen
 id scrollIndicatorDown
@@ -1206,6 +1257,7 @@ id showHome
 id showTitle
 id sin
 id spacer
+id spinerText
 id spline
 id split_action_bar
 id spread
@@ -1237,9 +1289,11 @@ id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
 id time
+id tipoLugar
 id title
 id titleDividerNoCustom
 id title_template
+id tituloContribuir
 id toggle
 id top
 id topPanel
@@ -1250,19 +1304,22 @@ id tvCelularContacto
 id tvContactoDetalle
 id tvDescripcionAcerca
 id tvDescripcionDetalle
+id tvDescripcionHotel
 id tvDescripcionLugar
 id tvDireccionDetalle
 id tvEmail
 id tvNombre
 id tvTitleSplash
-id tvTitulo
 id tvTituloDetalleLugar
+id tvTituloHotel
 id tvTituloLugar
+id tvTituloLugares
 id unchecked
 id uniform
 id up
 id useLogo
 id visible
+id wide
 id withText
 id wrap
 id wrap_content
@@ -1270,6 +1327,7 @@ integer abc_config_activityDefaultDur
 integer abc_config_activityShortDur
 integer cancel_button_image_alpha
 integer config_tooltipAnimTime
+integer google_play_services_version
 integer status_bar_notification_info_maxnum
 interpolator btn_checkbox_checked_mtrl_animation_interpolator_0
 interpolator btn_checkbox_checked_mtrl_animation_interpolator_1
@@ -1307,12 +1365,14 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_acerca_de
+layout activity_contribuir
 layout activity_detalle_lugar
+layout activity_listado_hoteles
 layout activity_listado_lugares
 layout activity_main
 layout activity_splash
 layout custom_dialog
-layout item_list
+layout item_listado_hoteles
 layout item_listado_lugares
 layout notification_action
 layout notification_action_tombstone
@@ -1324,6 +1384,7 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+menu main_menu
 mipmap ic_launcher
 mipmap ic_launcher_background
 mipmap ic_launcher_foreground
@@ -1356,18 +1417,60 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
+string about
 string amajariDescripcion
 string app_name
 string armoniaDescripcion
 string coliseoDescipcion
+string common_google_play_services_enable_button
+string common_google_play_services_enable_text
+string common_google_play_services_enable_title
+string common_google_play_services_install_button
+string common_google_play_services_install_text
+string common_google_play_services_install_title
+string common_google_play_services_notification_channel_name
+string common_google_play_services_notification_ticker
+string common_google_play_services_unknown_issue
+string common_google_play_services_unsupported_text
+string common_google_play_services_update_button
+string common_google_play_services_update_text
+string common_google_play_services_update_title
+string common_google_play_services_updating_text
+string common_google_play_services_wear_update_text
+string common_open_on_phone
+string common_signin_button_text
+string common_signin_button_text_long
+string contacto_lugar
+string contribute
+string default_web_client_id
+string descripcion_lugar
+string direccion_lugar
+string gcm_defaultSenderId
+string google_api_key
+string google_app_id
+string google_crash_reporting_api_key
+string google_storage_bucket
 string granDescripcion
+string guardar_lugar
+string lugarHotel
+string lugarInteres
 string mayarinoDescripcion
+string nombre_lugar
+string obtener_error
+string opcion1
+string opcion2
+string opcion3
 string panoramaDescripcion
 string parqueDescripcion
 string preventorioDescripcion
+string project_id
 string relaxDescripcion
 string search_menu_title
 string status_bar_notification_info_overflow
+string subido
+string subir_error
+string tipo_lugar
+string ver_mas
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog
@@ -1765,6 +1868,7 @@ styleable Layout android_orientation android_layout_width android_layout_height 
 styleable LinearLayoutCompat android_gravity android_orientation android_baselineAligned android_baselineAlignedChildIndex android_weightSum divider dividerPadding measureWithLargestChild showDividers
 styleable LinearLayoutCompat_Layout android_layout_gravity android_layout_width android_layout_height android_layout_weight
 styleable ListPopupWindow android_dropDownHorizontalOffset android_dropDownVerticalOffset
+styleable LoadingImageView circleCrop imageAspectRatio imageAspectRatioAdjust
 styleable MenuGroup android_enabled android_id android_visible android_menuCategory android_orderInCategory android_checkableBehavior
 styleable MenuItem android_icon android_enabled android_id android_checked android_visible android_menuCategory android_orderInCategory android_title android_titleCondensed android_alphabeticShortcut android_numericShortcut android_checkable android_onClick actionLayout actionProviderClass actionViewClass alphabeticModifiers contentDescription iconTint iconTintMode numericModifiers showAsAction tooltipText
 styleable MenuView android_windowAnimationStyle android_itemTextAppearance android_horizontalDivider android_verticalDivider android_headerBackground android_itemBackground android_itemIconDisabledAlpha preserveIconSpacing subMenuArrow
@@ -1782,6 +1886,7 @@ styleable PropertySet android_visibility android_alpha layout_constraintTag moti
 styleable RecycleListView paddingBottomNoButtons paddingTopNoTitle
 styleable RecyclerView android_orientation android_clipToPadding android_descendantFocusability fastScrollEnabled fastScrollHorizontalThumbDrawable fastScrollHorizontalTrackDrawable fastScrollVerticalThumbDrawable fastScrollVerticalTrackDrawable layoutManager reverseLayout spanCount stackFromEnd
 styleable SearchView android_focusable android_maxWidth android_inputType android_imeOptions closeIcon commitIcon defaultQueryHint goIcon iconifiedByDefault layout queryBackground queryHint searchHintIcon searchIcon submitBackground suggestionRowLayout voiceIcon
+styleable SignInButton buttonSize colorScheme scopeUris
 styleable Spinner android_entries android_popupBackground android_prompt android_dropDownWidth popupTheme
 styleable State android_id constraints
 styleable StateListDrawable android_dither android_visible android_variablePadding android_constantSize android_enterFadeDuration android_exitFadeDuration

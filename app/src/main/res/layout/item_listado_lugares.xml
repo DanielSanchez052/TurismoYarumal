@@ -31,7 +31,7 @@
 
         <ImageView
             android:id="@+id/ivImagenLugar"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
 
             android:src="@drawable/parque_principal"
@@ -40,7 +40,7 @@
 
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/tvTituloLugar"/>
+            app:layout_constraintTop_toBottomOf="@+id/tvTituloLugar"/>
 
         <TextView
             android:id="@+id/tvDescripcionLugar"
