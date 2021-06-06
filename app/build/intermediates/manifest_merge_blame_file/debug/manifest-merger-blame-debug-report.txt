@@ -36,102 +36,101 @@
 24-->D:\programacion\Android\TurismoYarumal\app\src\main\AndroidManifest.xml:11:9-54
 25        android:supportsRtl="true"
 25-->D:\programacion\Android\TurismoYarumal\app\src\main\AndroidManifest.xml:12:9-35
-26        android:testOnly="true"
-27        android:theme="@style/AppTheme" >
-27-->D:\programacion\Android\TurismoYarumal\app\src\main\AndroidManifest.xml:13:9-40
-28        <activity android:name="com.example.turismoyarumal.Contribuir" />
-28-->D:\programacion\Android\TurismoYarumal\app\src\main\AndroidManifest.xml:14:9-57
-28-->D:\programacion\Android\TurismoYarumal\app\src\main\AndroidManifest.xml:14:19-45
-29        <activity android:name="com.example.turismoyarumal.ListadoLugares" />
-29-->D:\programacion\Android\TurismoYarumal\app\src\main\AndroidManifest.xml:15:9-52
-29-->D:\programacion\Android\TurismoYarumal\app\src\main\AndroidManifest.xml:15:19-49
-30        <activity android:name="com.example.turismoyarumal.DetalleLugar" />
-30-->D:\programacion\Android\TurismoYarumal\app\src\main\AndroidManifest.xml:16:9-50
-30-->D:\programacion\Android\TurismoYarumal\app\src\main\AndroidManifest.xml:16:19-47
-31        <activity android:name="com.example.turismoyarumal.AcercaDe" />
-31-->D:\programacion\Android\TurismoYarumal\app\src\main\AndroidManifest.xml:17:9-46
-31-->D:\programacion\Android\TurismoYarumal\app\src\main\AndroidManifest.xml:17:19-43
-32        <activity android:name="com.example.turismoyarumal.ListadoHoteles" />
-32-->D:\programacion\Android\TurismoYarumal\app\src\main\AndroidManifest.xml:18:9-52
-32-->D:\programacion\Android\TurismoYarumal\app\src\main\AndroidManifest.xml:18:19-49
-33        <activity android:name="com.example.turismoyarumal.MainActivity" />
-33-->D:\programacion\Android\TurismoYarumal\app\src\main\AndroidManifest.xml:19:9-50
-33-->D:\programacion\Android\TurismoYarumal\app\src\main\AndroidManifest.xml:19:19-47
-34        <activity android:name="com.example.turismoyarumal.Splash" >
-34-->D:\programacion\Android\TurismoYarumal\app\src\main\AndroidManifest.xml:20:9-26:20
-34-->D:\programacion\Android\TurismoYarumal\app\src\main\AndroidManifest.xml:20:19-41
-35            <intent-filter>
-35-->D:\programacion\Android\TurismoYarumal\app\src\main\AndroidManifest.xml:21:13-25:29
-36                <action android:name="android.intent.action.MAIN" />
-36-->D:\programacion\Android\TurismoYarumal\app\src\main\AndroidManifest.xml:22:17-69
-36-->D:\programacion\Android\TurismoYarumal\app\src\main\AndroidManifest.xml:22:25-66
-37
-38                <category android:name="android.intent.category.LAUNCHER" />
-38-->D:\programacion\Android\TurismoYarumal\app\src\main\AndroidManifest.xml:24:17-77
-38-->D:\programacion\Android\TurismoYarumal\app\src\main\AndroidManifest.xml:24:27-74
-39            </intent-filter>
-40        </activity>
-41
-42        <service
-42-->[com.google.firebase:firebase-firestore:22.1.2] C:\Users\Desarrollo\.gradle\caches\transforms-2\files-2.1\92de980ec4be0e40da936f41390b76d8\jetified-firebase-firestore-22.1.2\AndroidManifest.xml:17:9-23:19
-43            android:name="com.google.firebase.components.ComponentDiscoveryService"
-43-->[com.google.firebase:firebase-firestore:22.1.2] C:\Users\Desarrollo\.gradle\caches\transforms-2\files-2.1\92de980ec4be0e40da936f41390b76d8\jetified-firebase-firestore-22.1.2\AndroidManifest.xml:18:13-84
-44            android:directBootAware="true"
-44-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Desarrollo\.gradle\caches\transforms-2\files-2.1\6ab08726464e15c770724aa1eb252c7a\jetified-firebase-common-19.5.0\AndroidManifest.xml:35:13-43
-45            android:exported="false" >
-45-->[com.google.firebase:firebase-firestore:22.1.2] C:\Users\Desarrollo\.gradle\caches\transforms-2\files-2.1\92de980ec4be0e40da936f41390b76d8\jetified-firebase-firestore-22.1.2\AndroidManifest.xml:19:13-37
-46            <meta-data
-46-->[com.google.firebase:firebase-firestore:22.1.2] C:\Users\Desarrollo\.gradle\caches\transforms-2\files-2.1\92de980ec4be0e40da936f41390b76d8\jetified-firebase-firestore-22.1.2\AndroidManifest.xml:20:13-22:85
-47                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
-47-->[com.google.firebase:firebase-firestore:22.1.2] C:\Users\Desarrollo\.gradle\caches\transforms-2\files-2.1\92de980ec4be0e40da936f41390b76d8\jetified-firebase-firestore-22.1.2\AndroidManifest.xml:21:17-111
-48                android:value="com.google.firebase.components.ComponentRegistrar" />
-48-->[com.google.firebase:firebase-firestore:22.1.2] C:\Users\Desarrollo\.gradle\caches\transforms-2\files-2.1\92de980ec4be0e40da936f41390b76d8\jetified-firebase-firestore-22.1.2\AndroidManifest.xml:22:17-82
-49            <meta-data
-49-->[com.google.firebase:firebase-storage:19.2.2] C:\Users\Desarrollo\.gradle\caches\transforms-2\files-2.1\4fa3e3b0ddffe5a9aff90c95738542e1\jetified-firebase-storage-19.2.2\AndroidManifest.xml:33:13-35:85
-50                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
-50-->[com.google.firebase:firebase-storage:19.2.2] C:\Users\Desarrollo\.gradle\caches\transforms-2\files-2.1\4fa3e3b0ddffe5a9aff90c95738542e1\jetified-firebase-storage-19.2.2\AndroidManifest.xml:34:17-107
-51                android:value="com.google.firebase.components.ComponentRegistrar" />
-51-->[com.google.firebase:firebase-storage:19.2.2] C:\Users\Desarrollo\.gradle\caches\transforms-2\files-2.1\4fa3e3b0ddffe5a9aff90c95738542e1\jetified-firebase-storage-19.2.2\AndroidManifest.xml:35:17-82
-52            <!--
-53                This registrar is not defined in the dynamic-module-support sdk itself to allow non-firebase
-54                clients to use it as well, by defining this registrar in their own core/common library.
-55            -->
-56            <meta-data
-56-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Desarrollo\.gradle\caches\transforms-2\files-2.1\6ab08726464e15c770724aa1eb252c7a\jetified-firebase-common-19.5.0\AndroidManifest.xml:43:13-45:85
-57                android:name="com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar"
-57-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Desarrollo\.gradle\caches\transforms-2\files-2.1\6ab08726464e15c770724aa1eb252c7a\jetified-firebase-common-19.5.0\AndroidManifest.xml:44:17-121
-58                android:value="com.google.firebase.components.ComponentRegistrar" />
-58-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Desarrollo\.gradle\caches\transforms-2\files-2.1\6ab08726464e15c770724aa1eb252c7a\jetified-firebase-common-19.5.0\AndroidManifest.xml:45:17-82
-59        </service>
-60
-61        <provider
-61-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Desarrollo\.gradle\caches\transforms-2\files-2.1\6ab08726464e15c770724aa1eb252c7a\jetified-firebase-common-19.5.0\AndroidManifest.xml:26:9-31:39
-62            android:name="com.google.firebase.provider.FirebaseInitProvider"
-62-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Desarrollo\.gradle\caches\transforms-2\files-2.1\6ab08726464e15c770724aa1eb252c7a\jetified-firebase-common-19.5.0\AndroidManifest.xml:27:13-77
-63            android:authorities="com.example.turismoyarumal.firebaseinitprovider"
-63-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Desarrollo\.gradle\caches\transforms-2\files-2.1\6ab08726464e15c770724aa1eb252c7a\jetified-firebase-common-19.5.0\AndroidManifest.xml:28:13-72
-64            android:directBootAware="true"
-64-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Desarrollo\.gradle\caches\transforms-2\files-2.1\6ab08726464e15c770724aa1eb252c7a\jetified-firebase-common-19.5.0\AndroidManifest.xml:29:13-43
-65            android:exported="false"
-65-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Desarrollo\.gradle\caches\transforms-2\files-2.1\6ab08726464e15c770724aa1eb252c7a\jetified-firebase-common-19.5.0\AndroidManifest.xml:30:13-37
-66            android:initOrder="100" />
-66-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Desarrollo\.gradle\caches\transforms-2\files-2.1\6ab08726464e15c770724aa1eb252c7a\jetified-firebase-common-19.5.0\AndroidManifest.xml:31:13-36
-67
-68        <activity
-68-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Desarrollo\.gradle\caches\transforms-2\files-2.1\3a684efadd3021bc381e3d122da7c2ba\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
-69            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-69-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Desarrollo\.gradle\caches\transforms-2\files-2.1\3a684efadd3021bc381e3d122da7c2ba\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
-70            android:exported="false"
-70-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Desarrollo\.gradle\caches\transforms-2\files-2.1\3a684efadd3021bc381e3d122da7c2ba\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
-71            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-71-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Desarrollo\.gradle\caches\transforms-2\files-2.1\3a684efadd3021bc381e3d122da7c2ba\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
-72
-73        <meta-data
-73-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Desarrollo\.gradle\caches\transforms-2\files-2.1\21323460d9c64eddd18a394d45685305\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
-74            android:name="com.google.android.gms.version"
-74-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Desarrollo\.gradle\caches\transforms-2\files-2.1\21323460d9c64eddd18a394d45685305\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
-75            android:value="@integer/google_play_services_version" />
-75-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Desarrollo\.gradle\caches\transforms-2\files-2.1\21323460d9c64eddd18a394d45685305\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
-76    </application>
-77
-78</manifest>
+26        android:theme="@style/AppTheme" >
+26-->D:\programacion\Android\TurismoYarumal\app\src\main\AndroidManifest.xml:13:9-40
+27        <activity android:name="com.example.turismoyarumal.Contribuir" />
+27-->D:\programacion\Android\TurismoYarumal\app\src\main\AndroidManifest.xml:14:9-57
+27-->D:\programacion\Android\TurismoYarumal\app\src\main\AndroidManifest.xml:14:19-45
+28        <activity android:name="com.example.turismoyarumal.ListadoLugares" />
+28-->D:\programacion\Android\TurismoYarumal\app\src\main\AndroidManifest.xml:15:9-52
+28-->D:\programacion\Android\TurismoYarumal\app\src\main\AndroidManifest.xml:15:19-49
+29        <activity android:name="com.example.turismoyarumal.DetalleLugar" />
+29-->D:\programacion\Android\TurismoYarumal\app\src\main\AndroidManifest.xml:16:9-50
+29-->D:\programacion\Android\TurismoYarumal\app\src\main\AndroidManifest.xml:16:19-47
+30        <activity android:name="com.example.turismoyarumal.AcercaDe" />
+30-->D:\programacion\Android\TurismoYarumal\app\src\main\AndroidManifest.xml:17:9-46
+30-->D:\programacion\Android\TurismoYarumal\app\src\main\AndroidManifest.xml:17:19-43
+31        <activity android:name="com.example.turismoyarumal.ListadoHoteles" />
+31-->D:\programacion\Android\TurismoYarumal\app\src\main\AndroidManifest.xml:18:9-52
+31-->D:\programacion\Android\TurismoYarumal\app\src\main\AndroidManifest.xml:18:19-49
+32        <activity android:name="com.example.turismoyarumal.MainActivity" />
+32-->D:\programacion\Android\TurismoYarumal\app\src\main\AndroidManifest.xml:19:9-50
+32-->D:\programacion\Android\TurismoYarumal\app\src\main\AndroidManifest.xml:19:19-47
+33        <activity android:name="com.example.turismoyarumal.Splash" >
+33-->D:\programacion\Android\TurismoYarumal\app\src\main\AndroidManifest.xml:20:9-26:20
+33-->D:\programacion\Android\TurismoYarumal\app\src\main\AndroidManifest.xml:20:19-41
+34            <intent-filter>
+34-->D:\programacion\Android\TurismoYarumal\app\src\main\AndroidManifest.xml:21:13-25:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->D:\programacion\Android\TurismoYarumal\app\src\main\AndroidManifest.xml:22:17-69
+35-->D:\programacion\Android\TurismoYarumal\app\src\main\AndroidManifest.xml:22:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->D:\programacion\Android\TurismoYarumal\app\src\main\AndroidManifest.xml:24:17-77
+37-->D:\programacion\Android\TurismoYarumal\app\src\main\AndroidManifest.xml:24:27-74
+38            </intent-filter>
+39        </activity>
+40
+41        <service
+41-->[com.google.firebase:firebase-firestore:22.1.2] C:\Users\Desarrollo\.gradle\caches\transforms-2\files-2.1\92de980ec4be0e40da936f41390b76d8\jetified-firebase-firestore-22.1.2\AndroidManifest.xml:17:9-23:19
+42            android:name="com.google.firebase.components.ComponentDiscoveryService"
+42-->[com.google.firebase:firebase-firestore:22.1.2] C:\Users\Desarrollo\.gradle\caches\transforms-2\files-2.1\92de980ec4be0e40da936f41390b76d8\jetified-firebase-firestore-22.1.2\AndroidManifest.xml:18:13-84
+43            android:directBootAware="true"
+43-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Desarrollo\.gradle\caches\transforms-2\files-2.1\6ab08726464e15c770724aa1eb252c7a\jetified-firebase-common-19.5.0\AndroidManifest.xml:35:13-43
+44            android:exported="false" >
+44-->[com.google.firebase:firebase-firestore:22.1.2] C:\Users\Desarrollo\.gradle\caches\transforms-2\files-2.1\92de980ec4be0e40da936f41390b76d8\jetified-firebase-firestore-22.1.2\AndroidManifest.xml:19:13-37
+45            <meta-data
+45-->[com.google.firebase:firebase-firestore:22.1.2] C:\Users\Desarrollo\.gradle\caches\transforms-2\files-2.1\92de980ec4be0e40da936f41390b76d8\jetified-firebase-firestore-22.1.2\AndroidManifest.xml:20:13-22:85
+46                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+46-->[com.google.firebase:firebase-firestore:22.1.2] C:\Users\Desarrollo\.gradle\caches\transforms-2\files-2.1\92de980ec4be0e40da936f41390b76d8\jetified-firebase-firestore-22.1.2\AndroidManifest.xml:21:17-111
+47                android:value="com.google.firebase.components.ComponentRegistrar" />
+47-->[com.google.firebase:firebase-firestore:22.1.2] C:\Users\Desarrollo\.gradle\caches\transforms-2\files-2.1\92de980ec4be0e40da936f41390b76d8\jetified-firebase-firestore-22.1.2\AndroidManifest.xml:22:17-82
+48            <meta-data
+48-->[com.google.firebase:firebase-storage:19.2.2] C:\Users\Desarrollo\.gradle\caches\transforms-2\files-2.1\4fa3e3b0ddffe5a9aff90c95738542e1\jetified-firebase-storage-19.2.2\AndroidManifest.xml:33:13-35:85
+49                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+49-->[com.google.firebase:firebase-storage:19.2.2] C:\Users\Desarrollo\.gradle\caches\transforms-2\files-2.1\4fa3e3b0ddffe5a9aff90c95738542e1\jetified-firebase-storage-19.2.2\AndroidManifest.xml:34:17-107
+50                android:value="com.google.firebase.components.ComponentRegistrar" />
+50-->[com.google.firebase:firebase-storage:19.2.2] C:\Users\Desarrollo\.gradle\caches\transforms-2\files-2.1\4fa3e3b0ddffe5a9aff90c95738542e1\jetified-firebase-storage-19.2.2\AndroidManifest.xml:35:17-82
+51            <!--
+52                This registrar is not defined in the dynamic-module-support sdk itself to allow non-firebase
+53                clients to use it as well, by defining this registrar in their own core/common library.
+54            -->
+55            <meta-data
+55-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Desarrollo\.gradle\caches\transforms-2\files-2.1\6ab08726464e15c770724aa1eb252c7a\jetified-firebase-common-19.5.0\AndroidManifest.xml:43:13-45:85
+56                android:name="com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar"
+56-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Desarrollo\.gradle\caches\transforms-2\files-2.1\6ab08726464e15c770724aa1eb252c7a\jetified-firebase-common-19.5.0\AndroidManifest.xml:44:17-121
+57                android:value="com.google.firebase.components.ComponentRegistrar" />
+57-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Desarrollo\.gradle\caches\transforms-2\files-2.1\6ab08726464e15c770724aa1eb252c7a\jetified-firebase-common-19.5.0\AndroidManifest.xml:45:17-82
+58        </service>
+59
+60        <provider
+60-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Desarrollo\.gradle\caches\transforms-2\files-2.1\6ab08726464e15c770724aa1eb252c7a\jetified-firebase-common-19.5.0\AndroidManifest.xml:26:9-31:39
+61            android:name="com.google.firebase.provider.FirebaseInitProvider"
+61-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Desarrollo\.gradle\caches\transforms-2\files-2.1\6ab08726464e15c770724aa1eb252c7a\jetified-firebase-common-19.5.0\AndroidManifest.xml:27:13-77
+62            android:authorities="com.example.turismoyarumal.firebaseinitprovider"
+62-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Desarrollo\.gradle\caches\transforms-2\files-2.1\6ab08726464e15c770724aa1eb252c7a\jetified-firebase-common-19.5.0\AndroidManifest.xml:28:13-72
+63            android:directBootAware="true"
+63-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Desarrollo\.gradle\caches\transforms-2\files-2.1\6ab08726464e15c770724aa1eb252c7a\jetified-firebase-common-19.5.0\AndroidManifest.xml:29:13-43
+64            android:exported="false"
+64-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Desarrollo\.gradle\caches\transforms-2\files-2.1\6ab08726464e15c770724aa1eb252c7a\jetified-firebase-common-19.5.0\AndroidManifest.xml:30:13-37
+65            android:initOrder="100" />
+65-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Desarrollo\.gradle\caches\transforms-2\files-2.1\6ab08726464e15c770724aa1eb252c7a\jetified-firebase-common-19.5.0\AndroidManifest.xml:31:13-36
+66
+67        <activity
+67-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Desarrollo\.gradle\caches\transforms-2\files-2.1\3a684efadd3021bc381e3d122da7c2ba\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+68            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+68-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Desarrollo\.gradle\caches\transforms-2\files-2.1\3a684efadd3021bc381e3d122da7c2ba\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+69            android:exported="false"
+69-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Desarrollo\.gradle\caches\transforms-2\files-2.1\3a684efadd3021bc381e3d122da7c2ba\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+70            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+70-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Desarrollo\.gradle\caches\transforms-2\files-2.1\3a684efadd3021bc381e3d122da7c2ba\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+71
+72        <meta-data
+72-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Desarrollo\.gradle\caches\transforms-2\files-2.1\21323460d9c64eddd18a394d45685305\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+73            android:name="com.google.android.gms.version"
+73-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Desarrollo\.gradle\caches\transforms-2\files-2.1\21323460d9c64eddd18a394d45685305\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+74            android:value="@integer/google_play_services_version" />
+74-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Desarrollo\.gradle\caches\transforms-2\files-2.1\21323460d9c64eddd18a394d45685305\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+75    </application>
+76
+77</manifest>

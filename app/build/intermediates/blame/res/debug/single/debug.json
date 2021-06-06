@@ -136,10 +136,6 @@
         "source": "D:\\programacion\\Android\\TurismoYarumal\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "D:\\programacion\\Android\\TurismoYarumal\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_contribuir.xml.flat",
-        "source": "D:\\programacion\\Android\\TurismoYarumal\\app\\src\\main\\res\\layout\\activity_contribuir.xml"
-    },
-    {
         "merged": "D:\\programacion\\Android\\TurismoYarumal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_foto.jpg.flat",
         "source": "D:\\programacion\\Android\\TurismoYarumal\\app\\src\\main\\res\\drawable\\foto.jpg"
     },

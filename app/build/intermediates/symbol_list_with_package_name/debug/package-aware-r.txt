@@ -1124,7 +1124,6 @@ id checkbox
 id checked
 id chronometer
 id collapseActionView
-id contactoLugar
 id content
 id contentPanel
 id cos
@@ -1137,10 +1136,8 @@ id decor_content_parent
 id default_activity_button
 id deltaRelative
 id dependency_ordering
-id descripcionLugar
 id dialog_button
 id dimensions
-id direccionLugar
 id direct
 id disableHome
 id disablePostScroll
@@ -1166,7 +1163,6 @@ id graph_wrap
 id group_divider
 id grouping
 id groups
-id guardarLugar
 id home
 id homeAsUp
 id honorRequest
@@ -1177,7 +1173,6 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
-id imagenLugar
 id info
 id invisible
 id italic
@@ -1204,7 +1199,6 @@ id middle
 id motion_base
 id multiply
 id never
-id nombreLugar
 id none
 id normal
 id notification_background
@@ -1257,7 +1251,6 @@ id showHome
 id showTitle
 id sin
 id spacer
-id spinerText
 id spline
 id split_action_bar
 id spread
@@ -1289,11 +1282,9 @@ id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
 id time
-id tipoLugar
 id title
 id titleDividerNoCustom
 id title_template
-id tituloContribuir
 id toggle
 id top
 id topPanel
@@ -1365,7 +1356,6 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_acerca_de
-layout activity_contribuir
 layout activity_detalle_lugar
 layout activity_listado_hoteles
 layout activity_listado_lugares
